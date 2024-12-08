@@ -7,7 +7,7 @@
 - By offering a comprehensive knowledge base, the chatbot empowers farmers with localized, actionable insights to improve their productivity and sustainability.  
 
 ## **Solution**  
-The solution involves developing a **Multilingual Agriculture Chatbot** using a custom **fine-tuned quantized LLaMA model** for intelligent responses in **Malayalam**. The chatbot will provide:  
+The solution involves developing a **Multilingual Agriculture Chatbot** using a custom **fine-tuned quantized LLaMA3.2 model** for intelligent responses in **Malayalam**. The chatbot will provide:  
 1. **Localized Crop Information**: Insights on cultivation practices, pest control, fertilizers, and modern techniques.  
 2. **Government Schemes**: State and central government schemes tailored to farmers' needs.  
 3. **Animal Care**: Recommendations for proper nutrition and feeding practices for farm animals like cows and pigs.  
@@ -16,7 +16,7 @@ The solution involves developing a **Multilingual Agriculture Chatbot** using a 
 ## **Technical Approach**  
 1. **Frontend**: Built with **Next.js** for an interactive and user-friendly experience.  
 2. **Backend**: Developed using **Flask** for handling requests and model inference.  
-3. **Model**: A custom fine-tuned **Quantized LLaMA model** for generating responses in Malayalam.  
+3. **Model**: A custom fine-tuned **Quantized LLaMA3.2 model** for generating responses in Malayalam.  
 4. **Pipeline**: Translation of Malayalam input to English, processing with the model, and translating the response back to Malayalam.  
 5. **Deployment**: Hosted on a cloud platform (e.g., AWS, Google Cloud, or Azure) for seamless accessibility.
 
